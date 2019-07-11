@@ -305,6 +305,7 @@ nav ul li:first-of-type {
 }
 
 .logos__element img {
+    max-width: 100%;
     margin: 0 auto;
 }
 
