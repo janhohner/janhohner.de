@@ -469,3 +469,45 @@ footer {
         width: 10px;
     }
 }
+
+.projects {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
+
+.projects__element {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    max-width: 400px;
+    margin: 13px;
+    padding: 25px 30px;
+    border: 1px solid #f2f2f2;
+}
+
+.projects__element > a {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    border: 0;
+}
+
+.projects__element img {
+    max-width: 100%;
+    margin: 0 auto;
+    border: 1px solid #f2f2f2;
+}
+
+.projects__element__skills span {
+    display: inline-block;
+    padding: 5px;
+    margin: 0 8px 8px 0;
+    font-weight: 500;
+    line-height: 1em;
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+}
