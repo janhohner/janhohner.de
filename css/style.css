@@ -92,7 +92,7 @@ p img {
     background: #fff;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 970px) {
     .container {
         margin: 0 10px;
     }
@@ -107,7 +107,7 @@ header {
     background: #fff;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 970px) {
     header {
         top: 10px;
         left: 10px;
@@ -151,7 +151,7 @@ nav {
     display: none;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 970px) {
     nav {
         display: none;
     }
@@ -177,7 +177,7 @@ nav ul li:first-of-type {
     margin-left: 0;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 970px) {
     nav {
         display: flex;
         justify-content: center;
@@ -187,7 +187,6 @@ nav ul li:first-of-type {
         left: 100vw;
         right: -100vw;
         bottom: 10px;
-        max-width: 650px;
         height: auto;
         background: #fff;
         z-index: 50;
@@ -218,7 +217,7 @@ nav ul li:first-of-type {
     padding: 30px;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 970px) {
     .content {
         margin: 88px 0 55px;
         padding: 10px;
@@ -249,7 +248,7 @@ nav ul li:first-of-type {
     min-height: calc(100vh - 163px - 60px);
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 970px) {
     .card-full-height {
         min-height: calc(100vh - 143px - 20px);
     }
@@ -271,7 +270,7 @@ nav ul li:first-of-type {
     }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 970px) {
     .card-max-width-50p {
         max-width: 100%;
     }
@@ -385,7 +384,7 @@ footer {
     z-index: 100;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 970px) {
     footer {
         padding: 15px 30px 20px;
     }
@@ -458,7 +457,7 @@ footer {
     height: 30px;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 970px) {
     .deco-margin-top,
     .deco-margin-bottom {
         height: 10px;
